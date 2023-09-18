@@ -1,7 +1,7 @@
 <!-- All Source Code are in GitHub :  -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 
 <head>
     <meta charset="utf-8" />
@@ -12,7 +12,7 @@
     <link rel="icon" href="img/mini_logo.png" type="image/png">
 
     <!-- link css files -->
-    <link rel="stylesheet" href="css/bootstrap1.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.rtl.min.css" integrity="sha384-PRrgQVJ8NNHGieOA1grGdCTIt4h21CzJs6SnWH4YMQ6G5F5+IEzOHz67L4SQaF0o" crossorigin="anonymous">
     <link rel="stylesheet" href="vendors/themefy_icon/themify-icons.css" />
     <link rel="stylesheet" href="vendors/niceselect/css/nice-select.css" />
     <link rel="stylesheet" href="vendors/font_awesome/css/all.min.css" />
@@ -32,8 +32,8 @@
     <!-- sidebar html code-->
     <nav class="sidebar">
         <div class="logo d-flex justify-content-between">
-            <a class="large_logo" href="index.html"><img src="img/logo.png" alt></a>
-            <a class="small_logo" href="index.html"><img src="img/mini_logo.png" alt></a>
+            <a class="large_logo" href="indexRTL.html"><img src="img/logo.png" alt></a>
+            <a class="small_logo" href="indexRTL.html"><img src="img/mini_logo.png" alt></a>
             <div class="sidebar_close_icon d-lg-none">
                 <i class="ti-close"></i>
             </div>
@@ -234,6 +234,11 @@
                         <div class="header_right d-flex justify-content-between align-items-center">
                             <div class="header_notification_warp d-flex align-items-center">
                                 <li>
+                                    <div class="form-check form-switch m-4">
+                                        <input class="btn btn-primary btn-sm" type="button" role="switch" value="LTR" onclick="loadOtherDirectionPage()"/>
+                                      </div>
+                                </li>
+                                <li>
                                     <a class="bell_notification_clicker" href="#"> <img src="img/icon/bell.svg" alt>
                                         <span>2</span>
                                     </a>
@@ -334,12 +339,12 @@
                                 <div class="profile_info_iner">
                                     <div class="profile_author_name">
                                         <p>IT. Manager </p>
-                                        <h5>Mr. Foutami</h5>
+                                        <h5>مدیر</h5>
                                     </div>
                                     <div class="profile_info_details">
-                                        <a href="#">My Profile </a>
-                                        <a href="#">Settings</a>
-                                        <a href="#">Log Out </a>
+                                        <a href="#">پروفایل </a>
+                                        <a href="#">تنظیمات</a>
+                                        <a href="#">خروج از سیستم </a>
                                     </div>
                                 </div>
                             </div>
@@ -365,7 +370,7 @@
                             <div class="page_title_right">
                                 <div class="page_date_button d-flex align-items-center">
                                     <img src="img/icon/calender_icon.svg" alt>
-                                    August 1, 2023 - August 31, 2023
+                                    7 شهریور 1402 تا 31 شهریور 1402
                                 </div>
                             </div>
                         </div>
@@ -378,7 +383,7 @@
                                 <div class="row align-items-center justify-content-between flex-wrap">
                                     <div class="col-lg-4">
                                         <div class="main-title">
-                                            <h3 class="m-0">Stoke Details</h3>
+                                            <h3 class="m-0">Stoke Details 1</h3>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 text-end d-flex justify-content-end">
@@ -596,12 +601,11 @@
                                             </span>
                                             <div class="dropdown-menu dropdown-menu-right"
                                                 aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item" href="#"> <i class="ti-eye"></i> Action</a>
-                                                <a class="dropdown-item" href="#"> <i class="ti-trash"></i> Delete</a>
-                                                <a class="dropdown-item" href="#"> <i class="fas fa-edit"></i> Edit</a>
-                                                <a class="dropdown-item" href="#"> <i class="ti-printer"></i> Print</a>
-                                                <a class="dropdown-item" href="#"> <i class="fa fa-download"></i>
-                                                    Download</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-eye"></i> Action</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-trash"></i> Delete</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-edit"></i> Edit</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-print"></i> Print</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-download"></i> Download</a>
                                             </div>
                                         </div>
                                     </div>
@@ -662,12 +666,11 @@
                                             </span>
                                             <div class="dropdown-menu dropdown-menu-right"
                                                 aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item" href="#"> <i class="ti-eye"></i> Action</a>
-                                                <a class="dropdown-item" href="#"> <i class="ti-trash"></i> Delete</a>
-                                                <a class="dropdown-item" href="#"> <i class="fas fa-edit"></i> Edit</a>
-                                                <a class="dropdown-item" href="#"> <i class="ti-printer"></i> Print</a>
-                                                <a class="dropdown-item" href="#"> <i class="fa fa-download"></i>
-                                                    Download</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-eye"></i> Action</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-trash"></i> Delete</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-edit"></i> Edit</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-print"></i> Print</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-download"></i> Download</a>
                                             </div>
                                         </div>
                                     </div>
@@ -751,12 +754,11 @@
                                             </span>
                                             <div class="dropdown-menu dropdown-menu-right"
                                                 aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item" href="#"> <i class="ti-eye"></i> Action</a>
-                                                <a class="dropdown-item" href="#"> <i class="ti-trash"></i> Delete</a>
-                                                <a class="dropdown-item" href="#"> <i class="fas fa-edit"></i> Edit</a>
-                                                <a class="dropdown-item" href="#"> <i class="ti-printer"></i> Print</a>
-                                                <a class="dropdown-item" href="#"> <i class="fa fa-download"></i>
-                                                    Download</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-eye"></i> Action</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-trash"></i> Delete</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-edit"></i> Edit</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-print"></i> Print</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-download"></i> Download</a>
                                             </div>
                                         </div>
                                     </div>
@@ -902,12 +904,11 @@
                                             </span>
                                             <div class="dropdown-menu dropdown-menu-right"
                                                 aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item" href="#"> <i class="ti-eye"></i> Action</a>
-                                                <a class="dropdown-item" href="#"> <i class="ti-trash"></i> Delete</a>
-                                                <a class="dropdown-item" href="#"> <i class="fas fa-edit"></i> Edit</a>
-                                                <a class="dropdown-item" href="#"> <i class="ti-printer"></i> Print</a>
-                                                <a class="dropdown-item" href="#"> <i class="fa fa-download"></i>
-                                                    Download</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-eye"></i> Action</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-trash"></i> Delete</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-edit"></i> Edit</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-print"></i> Print</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-download"></i> Download</a>
                                             </div>
                                         </div>
                                     </div>
@@ -985,12 +986,11 @@
                                             </span>
                                             <div class="dropdown-menu dropdown-menu-right"
                                                 aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item" href="#"> <i class="ti-eye"></i> Action</a>
-                                                <a class="dropdown-item" href="#"> <i class="ti-trash"></i> Delete</a>
-                                                <a class="dropdown-item" href="#"> <i class="fas fa-edit"></i> Edit</a>
-                                                <a class="dropdown-item" href="#"> <i class="ti-printer"></i> Print</a>
-                                                <a class="dropdown-item" href="#"> <i class="fa fa-download"></i>
-                                                    Download</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-eye"></i> Action</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-trash"></i> Delete</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-edit"></i> Edit</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-print"></i> Print</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-download"></i> Download</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1128,12 +1128,11 @@
                                             </span>
                                             <div class="dropdown-menu dropdown-menu-right"
                                                 aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item" href="#"> <i class="ti-eye"></i> Action</a>
-                                                <a class="dropdown-item" href="#"> <i class="ti-trash"></i> Delete</a>
-                                                <a class="dropdown-item" href="#"> <i class="fas fa-edit"></i> Edit</a>
-                                                <a class="dropdown-item" href="#"> <i class="ti-printer"></i> Print</a>
-                                                <a class="dropdown-item" href="#"> <i class="fa fa-download"></i>
-                                                    Download</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-eye"></i> Action</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-trash"></i> Delete</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-edit"></i> Edit</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-print"></i> Print</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-download"></i> Download</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1207,12 +1206,11 @@
                                             </span>
                                             <div class="dropdown-menu dropdown-menu-right"
                                                 aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item" href="#"> <i class="ti-eye"></i> Action</a>
-                                                <a class="dropdown-item" href="#"> <i class="ti-trash"></i> Delete</a>
-                                                <a class="dropdown-item" href="#"> <i class="fas fa-edit"></i> Edit</a>
-                                                <a class="dropdown-item" href="#"> <i class="ti-printer"></i> Print</a>
-                                                <a class="dropdown-item" href="#"> <i class="fa fa-download"></i>
-                                                    Download</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-eye"></i> Action</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-trash"></i> Delete</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-edit"></i> Edit</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-print"></i> Print</a>
+                                                <a class="dropdown-item" href="#"> <i class="fa fa-download"></i> Download</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1661,8 +1659,7 @@
 
     <!-- link js files -->
     <script src="js/jquery1-3.4.1.min.js"></script>
-    <script src="js/popper1.min.js"></script>
-    <script src="js/bootstrap1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="js/metisMenu.js"></script>
     <script src="vendors/count_up/jquery.waypoints.min.js"></script>
     <script src="vendors/chartlist/Chart.min.js"></script>
@@ -1695,6 +1692,11 @@
     <script src="vendors/chart_am/chart-custom.js"></script>
     <script src="js/dashboard_init.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+        function loadOtherDirectionPage() {
+            window.location.href = "indexLTR.html";
+        }
+    </script>
 </body>
 
 </html>
